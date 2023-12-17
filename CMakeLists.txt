@@ -12,7 +12,7 @@ pico_sdk_init()
 
 #Add my test example
 add_subdirectory(button_test)
-add_subdirectory(analog_io)
-add_subdirectory(timer_tutorial)
-add_subdirectory(reflex_game)
-add_subdirectory(reflex_game_adaptive)
+#add_subdirectory(analog_io)
+#add_subdirectory(timer_tutorial)
+#add_subdirectory(reflex_game)
+#add_subdirectory(reflex_game_adaptive)
