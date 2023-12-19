@@ -10,10 +10,8 @@
   git remote add origin https://github.com/terapong/tutorials_w.git
   git push -u origin main
   
-  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
+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
   
   git remote set-url origin https://<token>@github.com/<username>/<repo>
   
-  git remote set-url origin https://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@github.com/terapong/tutorials_w
-
-  Ok
+  git remote set-url origin https://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@github.com/terapong/tutorials_w
