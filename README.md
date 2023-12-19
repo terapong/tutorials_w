@@ -6,6 +6,13 @@
 # cd pico_w/wifi/blink/
 # make -j4
 
+cmake -DPICO_BOARD=pico_w ..
+cmake .. -DPICO_BOARD=pico_w ..
+make
+
+sudo apt install minicom
+sudo minicom -b 115200 -o -D /dev/ttyACM0
+
 
 target_include_directories(tutorial_w PRIVATE ${CMAKE_CURRENT_LIST_DIR}) 
 ไอ้นี้อยู่ี่ไหน หว่ะ ${CMAKE_CURRENT_LIST_DIR}

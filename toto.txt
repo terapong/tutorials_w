@@ -1,0 +1,17 @@
+ 
+  git init
+  
+  git config --global user.email "terapong.p@gmail.com"
+  git config --global user.name "terapong"
+  
+  git add .
+  git commit -am "first commit"
+  git branch -M main
+  git remote add origin https://github.com/terapong/tutorials_w.git
+  git push -u origin main
+  
+  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
+  
+  git remote set-url origin https://<token>@github.com/<username>/<repo>
+  
+  git remote set-url origin https://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@github.com/terapong/tutorials_w
